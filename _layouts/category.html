@@ -10,8 +10,9 @@ layout: default
         <a href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
         </a>
-        <div class="fw600 light-silver mt1">{{ post.date | date_to_string }}</div>
-      </h3>
+        <span class="light-silver mt1 cate_list"><small>{{ post.date | date_to_string }}</small></span>
+        </h3>
+        <div class="clear"></div>
     </li>
   {% endfor %}
   

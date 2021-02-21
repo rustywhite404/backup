@@ -6,7 +6,8 @@
 
 .menu-list{margin:0 auto; padding:0; text-align: center;}
 .menu-list li{list-style: none; display: inline-block;}
-
+.cate_list{float:right;}
+.clear{clear:both;}
 /* Markdown styles */
 .markdown-body a {
   text-decoration: none;
