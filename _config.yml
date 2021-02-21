@@ -15,7 +15,7 @@ links:
     url:          /about
     external:     false
   - name:         Study 
-    url:          /about
+    url:          /study
     external:     false
     
 # ------------ CONFIGURABLE END ------------
