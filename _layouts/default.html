@@ -19,12 +19,11 @@
        
         <ul>
           {% for link in site.links %}
-          <li><a class="link blue hover-mid-gray mh2 pv1"
+          <li class="menu-list"><a class="link blue hover-mid-gray mh2 pv1"
             href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">
             {{ link.name }}
           </a></li>          
-        {% endfor %}
-          
+        {% endfor %}          
           {% assign pages_list = site.pages %}
           {% for node in pages_list %}
             {% if node.title != null %}
@@ -39,6 +38,7 @@
             {% endif %}
           {% endfor %}
         </ul>
+        <div style="clear:both"></div>
       </nav>
 
       <main class="tl f6 relative pa4 pa5-ns overflow-hidden">
