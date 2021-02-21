@@ -26,8 +26,10 @@
           {% for node in pages_list %}
             {% if node.title != null %}
               {% if node.layout == "category" %}
+              <div class="cate_menu">
                 <a class="category-link {% if page.url == node.url %} active{% endif %}"
                 href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+              </div>
               {% endif %}
             {% endif %}
           {% endfor %}
