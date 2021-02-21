@@ -1,6 +1,6 @@
 ---
-title: Scribble, a Jekyll theme
-date: 2017-03-12 00:06:52
+title: 글 제목 테스트 
+date: 2021-03-12 00:06:52
 categories: study
 ---
 
