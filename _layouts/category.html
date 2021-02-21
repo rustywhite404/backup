@@ -6,12 +6,12 @@ layout: default
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
     <li style="list-style: none;">
-      <h3>
-        <a href="{{ site.baseurl }}{{ post.url }}">
+      <h4>
+        <a class="ttu f3 mt0 lh-title cb mb2" href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
         </a>
-        <small>{{ post.date | date_to_string }}</small>
-      </h3>
+        <div class="fw600 light-silver mt1"><small>{{ post.date | date_to_string }}</small></div>
+      </h4>
     </li>
   {% endfor %}
   
