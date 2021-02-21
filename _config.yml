@@ -14,6 +14,10 @@ links:
   - name:         About me
     url:          /about
     external:     false
+  - name:         Study 
+    url:          /about
+    external:     false
+    
 # ------------ CONFIGURABLE END ------------
 
 permalink:        /posts/:title
