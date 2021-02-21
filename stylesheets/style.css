@@ -9,6 +9,8 @@
 .cate_list{float:right;}
 .clear{clear:both;}
 .pdb5{padding-bottom:5px;}
+.subject{font-size:15px; font-weight: 500;}
+
 /* Markdown styles */
 .markdown-body a {
   text-decoration: none;
