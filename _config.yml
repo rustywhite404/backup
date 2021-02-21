@@ -15,9 +15,6 @@ links:
   - name:         About me
     url:          /about
     external:     false
-  - name:         Study 
-    url:          /study
-    external:     false
     
 # ------------ CONFIGURABLE END ------------
 
