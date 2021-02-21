@@ -7,7 +7,7 @@ layout: default
   {% for post in site.categories[category] %}
     <li style="list-style: none;">
       <h4>
-        <a class="ttu f3 mt0 lh-title cb mb2" href="{{ site.baseurl }}{{ post.url }}">
+        <a class="link" href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
         </a>
         <div class="fw600 light-silver mt1"><small>{{ post.date | date_to_string }}</small></div>
