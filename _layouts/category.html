@@ -5,7 +5,7 @@ layout: default
   
   {% assign category = page.category | default: page.title %}
   {% for post in site.categories[category] %}
-    <li>
+    <li style="list-style: none;">
       <h3>
         <a href="{{ site.baseurl }}{{ post.url }}">
           {{ post.title }}
