@@ -17,9 +17,9 @@
     <div class="mw7 bg-white mt4 mb3 center br2-ns bt bb ba-ns b--light-gray">
       <nav class="bb b--light-gray pv4 tc" aria-label="Main">
        
-        <ul>
+        <ul class="menu-list">
           {% for link in site.links %}
-          <li class="menu-list"><a class="link blue hover-mid-gray mh2 pv1"
+          <li><a class="link blue hover-mid-gray mh2 pv1"
             href="{% unless link.external %}{{ site.url }}{% endunless %}{{ link.url }}">
             {{ link.name }}
           </a></li>          
@@ -29,7 +29,7 @@
             {% if node.title != null %}
               {% if node.layout == "category" %}
               
-                <li class="menu-list">
+                <li>
                 <a class="link blue hover-mid-gray mh2 pv1 category-link {% if page.url == node.url %} active{% endif %}"
                 href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
                 </li>

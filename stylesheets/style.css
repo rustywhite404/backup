@@ -4,7 +4,8 @@
 .top-50 { top: 50% }
 .link:hover { background: url(/images/line.png) repeat-x left bottom; }
 
-.menu-list{list-style: none; float:left;}
+.menu-list{margin:0 auto; padding:0; text-align: center;}
+.menu-list li{list-style: none; display: inline-block;}
 
 /* Markdown styles */
 .markdown-body a {
