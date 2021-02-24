@@ -41,6 +41,6 @@
 
 table{border-spacing: 0;}
 th{border-top:1px solid #999; border-bottom:1px solid #999; font-size:13px;}
-td{border-bottom:1px solid #ccc; font-size:13px;}
+td{border-bottom:1px solid #ccc; font-size:13px; padding:10px 10px;}
 
 /* end Markdown styles */
